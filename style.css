@@ -235,13 +235,15 @@ h1:hover::after {
 		justify-content: safe center;
 		padding: 0 0 60px 8vw;
 	}
+
+	/* ======================== CARD HOVER EFFECTS STARTS HERE ======================== */
 	#projects {
 		height: 100vh;
 		display: grid;
 		place-items: center;
 		transform-style: preserve-3d;
 	}
-
+	/* projects images */
 	.project-img {
 		max-height: 220px;
 		border-radius: 5px;
@@ -250,7 +252,7 @@ h1:hover::after {
 	.project-img:hover {
 		transform: translateZ(130px) rotate3d(1, 0, 0, -60deg);
 	}
-
+	/* background dark grayish tile  */
 	#project-tile {
 		margin: 10px 0;
 		transition: ease-out 300ms;
@@ -302,14 +304,15 @@ h1:hover::after {
 	justify-content: safe center;
 }
 
+/*================== PROJECT TILES IN WORK SECTION END HERE =====================*/
 .link {
-    height: 40px;
-    border-radius: 3px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    background-color: rgba(255, 255, 255, 0.6);
+	height: 40px;
+	border-radius: 3px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	background-color: rgba(255, 255, 255, 0.6);
 	color: black;
 	margin: auto 20px auto 0;
 	font-family: nunito, "arial";
@@ -320,101 +323,102 @@ h1:hover::after {
 }
 
 .link:hover {
-    background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 5px;
-    box-shadow: 0 0 10px -3px rgba(0, 0, 0, 0.8);
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 5px;
+	box-shadow: 0 0 10px -3px rgba(0, 0, 0, 0.8);
 	transform: translateY(-2px);
 }
 
-.text, .email {
-    background-color: white;
-    color: black;
-    border-style: none;
-    font-family: poppins, "sans-serif";
-    font-size: 16px;
-    border-radius: 3px;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+.text,
+.email {
+	background-color: white;
+	color: black;
+	border-style: none;
+	font-family: poppins, "sans-serif";
+	font-size: 16px;
+	border-radius: 3px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .text {
-    margin: 10px;
-    padding: 10px;
-    width: calc(100% - 20px);
+	margin: 10px;
+	padding: 10px;
+	width: calc(100% - 20px);
 }
 
 .email {
-    margin: 0 10px;
-    padding: 10px;
-    width: calc(100% - 20px);
+	margin: 0 10px;
+	padding: 10px;
+	width: calc(100% - 20px);
 }
 
 #modal {
-    width: 700px;
-    border-style: none;
-    border-radius: 5px;
-    background-color: rgba(230, 255, 240, 1);
-    height: 360px;
-    overflow: hidden;
-    box-shadow: 0 15px 50px -20px rgba(0, 0, 0, 0.5);
+	width: 700px;
+	border-style: none;
+	border-radius: 5px;
+	background-color: rgba(230, 255, 240, 1);
+	height: 360px;
+	overflow: hidden;
+	box-shadow: 0 15px 50px -20px rgba(0, 0, 0, 0.5);
 }
 
 #modal::backdrop {
-    background: white;
-    opacity: 0.2;
+	background: white;
+	opacity: 0.2;
 }
 
 .close-icon {
-    opacity: 0.6;
-    height: 20px;
-    width: 20px;
+	opacity: 0.6;
+	height: 20px;
+	width: 20px;
 }
 
 #cancel-button {
-    border-style: none;
-    background-color: rgba(0, 0, 0, 0);
+	border-style: none;
+	background-color: rgba(0, 0, 0, 0);
 }
 
 #email-button {
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 7px 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 40px;
-    width: 140px;
-    margin: auto 0;
-    border-radius: 3px;
-    border-style: none;
-    font-size: 18px;
-    font-family: poppins, 'sans-serif;';
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 7px 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 40px;
+	width: 140px;
+	margin: auto 0;
+	border-radius: 3px;
+	border-style: none;
+	font-size: 18px;
+	font-family: poppins, "sans-serif;";
 }
 
 .email-submit {
-    margin: 10px;
-    font-size: 16px;
-    color: white;
-    font-family: poppins, 'sans-serif;';
-    height: 40px;
-    border-style: none;
-    border-radius: 3px;
-    width: 120px;
-    background-color: rgba(0, 0, 255, 0.6);
+	margin: 10px;
+	font-size: 16px;
+	color: white;
+	font-family: poppins, "sans-serif;";
+	height: 40px;
+	border-style: none;
+	border-radius: 3px;
+	width: 120px;
+	background-color: rgba(0, 0, 255, 0.6);
 }
 
 .email-submit:hover {
-    background-color: rgba(0, 0, 255, 1.0);
-    box-shadow: 0 0 10px -3px rgba(0, 0, 0, 0.8);
+	background-color: rgba(0, 0, 255, 1);
+	box-shadow: 0 0 10px -3px rgba(0, 0, 0, 0.8);
 }
 
 #email-button:hover {
-    transform: scale(1.06);
-    box-shadow: 0 0 20px -10px rgba(0, 0, 0, 0.8);
-    background-color: white;
+	transform: scale(1.06);
+	box-shadow: 0 0 20px -10px rgba(0, 0, 0, 0.8);
+	background-color: white;
 }
 
 .icon {
-    margin: 0 6px 0 0;
-    opacity: 0.8;
-    width: 25px;
-    height: 25px;
+	margin: 0 6px 0 0;
+	opacity: 0.8;
+	width: 25px;
+	height: 25px;
 }
