@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>portfolio</title>
+</head>
+
+<body id="body">
+
+	<nav class="active" id="nav">
+		<ul>
+			<li><a href="#about">about</a></li>
+			<li><a href="#projects">work</a></li>
+			<li><a href="#profile-link">socials</a></li>
+		</ul>
+		<button class="icon" id="toggle">
+			<div class="line line1"></div>
+			<div class="line line2"></div>
+		</button>
+	</nav>
+
+	<section id="about" class="one" data-color="red">
+		<h1 data-name="Hello!">Hello!</h1>
+		<h1 data-name="i'm">i'm</h1>
+		<h1 data-name="Anay">Anay</h1>
+		<h1 data-name="Sharma">sharma</h1>
+		</ul>
+		<p class="about-details">
+			welcome to my portfolio,
+			i am a student at <a href="">SAM college of engineering and technology</a>,<br>and a passionate learner.<br> my
+			some other interests are robotics, painting and gaming.
+		</p>
+	</section>
+
+	<section id="projects" class="two">
+		<p>my work</p>
+		<div class="project">
+			<a id="project-tile" href="https://codepen.io/anaysharma/pen/PoOMbvE">
+				<img class="project-img" src="./assets/survey.png">
+				<p class="project-title">Survey Form</p>
+			</a>
+			<a id="project-tile" href="https://codepen.io/anaysharma/pen/qBVOjmj">
+				<img class="project-img" src="./assets/tribute.png">
+				<p class="project-title">Tribute Page</p>
+			</a>
+			<a id="project-tile" href="https://codepen.io/anaysharma/pen/vYWozmv">
+				<img class="project-img" src="./assets/product.png">
+				<p class="project-title">Product Page</p>
+			</a>
+			<a id="project-tile" href="https://codepen.io/anaysharma/pen/KKZPgMp">
+				<img class="project-img" src="./assets/doq.png">
+				<p class="project-title">Documentation</p>
+			</a>
+		</div>
+	</section>
+
+	<section id="profile-link">
+		<a class="link" href="https://github.com/anaysharma">
+			<img class="icon" src="./assets/github.png">Github
+		</a>
+		<a class="link" href="https://www.freecodecamp.org/Anay">
+			<img class="icon" src="./assets/free-code-camp.png">Free Code Camp
+		</a>
+		<a class="link" href="https://www.linkedin.com/in/anay-sharma-b3785321a">
+			<img class="icon" src="./assets/linkedin.png">Linkedin
+		</a>
+		<button id="email-button">
+			<img class="icon" src="./assets/email.png">Email me
+		</button>
+	</section>
+
+	<dialog id="modal">
+		<button id="cancel-button">
+			<img class="close-icon" src="./assets/close.png">
+		</button>
+		<form action="https://formsubmit.co/anaysharma8791@gmail.com" method="dialog">
+			<textarea rows="6" class="text" type="text" name="name" placeholder="type here" required></textarea>
+			<input class="email" type="email" name="email" placeholder="your E-mail" required>
+			<button class="email-submit" type="submit">send</button>
+		</form>
+	</dialog>
+
+	<script src="script.js"></script>
+</body>
+
+</html>
